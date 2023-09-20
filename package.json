@@ -6,6 +6,7 @@
   "scripts": {
     "start-dev": "webpack-dev-server --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
+    "build-image": "node sharp.js",
     "test": "karma start"
   },
   "keywords": [],
@@ -30,6 +31,7 @@
     "karma-sourcemap-loader": "^0.4.0",
     "karma-webpack": "^5.0.0",
     "sass": "^1.63.6",
+    "sharp": "^0.32.6",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
     "sweetalert2": "^11.7.18",
